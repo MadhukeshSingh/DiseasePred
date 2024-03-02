@@ -21,7 +21,7 @@ parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
-    st.image('bot.jpg', width=150)
+    st.image('bot.jpg', width=250)
     selected = option_menu('Disease Prediction System',
                           
                           ['Diabetes Prediction',
@@ -32,6 +32,7 @@ with st.sidebar:
     
     
 # Diabetes Prediction Page
+    st.image('bot.jpg', width=250)
 if (selected == 'Diabetes Prediction'):
     
     # page title
