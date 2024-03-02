@@ -45,8 +45,5 @@ python manage.py runserver
 
 Please fork this project and send us a pull request.
 
-## Authors
-
-* **Arjun Adhikari**
 
 
