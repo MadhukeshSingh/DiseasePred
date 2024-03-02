@@ -19,6 +19,7 @@ heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
 st.markdown(
+    '''
     <style>
         body {
             background-color: #121212;
@@ -26,6 +27,7 @@ st.markdown(
             font-family: 'Arial', sans-serif;
         }
     </style>
+    ''',
     unsafe_allow_html=True
 )
 
