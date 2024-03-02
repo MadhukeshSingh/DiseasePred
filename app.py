@@ -75,9 +75,9 @@ if (selected == 'Diabetes Prediction'):
         diab_prediction = diabetes_model.predict([[Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age]])
         
         if (diab_prediction[0] == 1):
-          diab_diagnosis = 'The person is diabetic'
+          diab_diagnosis = '"The person is diabetic, but remember, even glucose comes with a positive charge! Embrace the sweetness of life and keep your spirits high. You're sweet, just like your blood sugar levels!" '
         else:
-          diab_diagnosis = 'The person is not diabetic'
+          diab_diagnosis = 'You are not diabetic enjoy some Sweets'
         
     st.success(diab_diagnosis)
 
