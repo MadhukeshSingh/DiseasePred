@@ -18,36 +18,10 @@ heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 
 parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
-st.markdown(
-    """
-    <style>
-        body {
-            background-color: #f0f0f0;
-            font-family: 'Arial', sans-serif;
-        }
-
-        .sidebar .sidebar-content {
-            background-color: #2d3436;
-            color: #ecf0f1;
-        }
-
-        .main .block-container {
-            background-color: #ecf0f1;
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Add more custom styling as needed */
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 # sidebar for navigation
 with st.sidebar:
-    
+    st.image('bot.jpg', width=150)
     selected = option_menu('Disease Prediction System',
                           
                           ['Diabetes Prediction',
