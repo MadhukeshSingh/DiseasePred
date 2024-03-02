@@ -32,12 +32,11 @@ with st.sidebar:
     
     
 # Diabetes Prediction Page
-    st.image('bot.jpg', width=250)
 if (selected == 'Diabetes Prediction'):
     
     # page title
     st.title('Diabetes Prediction using ML')
-    
+    st.image('bot2.jpg', width=250)
     
     # getting the input data from the user
     col1, col2, col3 = st.columns(3)
