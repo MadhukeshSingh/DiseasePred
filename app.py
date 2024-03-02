@@ -36,7 +36,10 @@ if (selected == 'Diabetes Prediction'):
     
     # page title
     st.title('Diabetes Prediction using ML')
-    st.image('bot2.jpg', width=250)
+    
+    st.markdown('<div class="center-image">', unsafe_allow_html=True)
+    st.image('bot2.jpg', width=300)
+    st.markdown('</div>', unsafe_allow_html=True)  
     
     # getting the input data from the user
     col1, col2, col3 = st.columns(3)
